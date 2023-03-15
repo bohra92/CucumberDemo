@@ -1,4 +1,3 @@
-stepDef\TestRunner.class
 hooks\Loginhooks.class
-factory\Driverfatory.class
 stepDef\LoginSteps.class
+factory\Driverfatory.class
