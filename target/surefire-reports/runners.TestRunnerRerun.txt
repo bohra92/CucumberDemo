@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunnerRerun
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.639 s <<< FAILURE! - in runners.TestRunnerRerun
-Dashboard Scenarios.Check the title of the cards  Time elapsed: 10.623 s  <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step 'I check the title of the cards' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then("I check the title of the cards")
-public void i_check_the_title_of_the_cards(io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in runners.TestRunnerRerun

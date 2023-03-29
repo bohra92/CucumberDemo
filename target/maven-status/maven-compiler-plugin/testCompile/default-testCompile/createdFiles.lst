@@ -1,3 +1,7 @@
+stepDef\TestSteps.class
 hooks\Loginhooks.class
+stepDef\DashboardSteps.class
 stepDef\LoginSteps.class
+runners\TestRunner.class
+runners\TestRunnerRerun.class
 factory\Driverfatory.class

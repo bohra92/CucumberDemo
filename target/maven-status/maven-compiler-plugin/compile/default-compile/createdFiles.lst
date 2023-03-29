@@ -1,2 +1,3 @@
-utils\PropertyReader.class
+pages\Dashboard.class
 pages\Login.class
+utils\PropertyReader.class

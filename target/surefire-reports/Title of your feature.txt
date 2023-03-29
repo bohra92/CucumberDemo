@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Title of your feature
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.251 s <<< FAILURE! - in Title of your feature
+Title of your feature.Test Scenario  Time elapsed: 14.251 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDef.TestSteps.i_should_be_able_to_see_things(TestSteps.java:17)
+	at ✽.I should be able to see things(file:///C:/Users/Lenovo/eclipse-workspace/Cucumber/src/test/resources/features/test.feature:8)
+

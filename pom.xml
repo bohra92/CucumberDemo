@@ -58,14 +58,19 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M9</version>
 				<configuration>
-                    <excludes>
-                        <exclude>none</exclude>
-                    </excludes>
-                    <includes>
-                        <!-- Include your Cucumber tests, as an example -->
-                        <include>**/TestRunner*.java</include>
-                    </includes>
-                </configuration>
+					<excludes>
+						<exclude>none</exclude>
+					</excludes>
+					<includes>
+						<!-- Include your Cucumber tests, as an example -->
+						<include>**/TestRunner*.java</include>
+					</includes>
+					<forkCount>1</forkCount>
+					<reuseForks>true</reuseForks>
+					<parallel>methods</parallel>
+					<useUnlimitedThreads>true</useUnlimitedThreads>
+
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
