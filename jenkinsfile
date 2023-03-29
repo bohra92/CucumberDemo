@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("C:/Users/Lenovo/eclipse-workspace/Cucumber") {
-                bat 'mvn -B -DskipTests clean package'
+                bat 'mvn clean install'
                 }
             }
         }
